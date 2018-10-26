@@ -1,0 +1,281 @@
+html,body, .ivu-row-flex, .layout{
+  height: 100%;
+  min-height: 100%;
+}
+.layout {
+  position: relative;
+  overflow: auto;
+  background: #f5f7f9;
+}
+
+/* 顶部导航 */
+.topFlex {
+  height: 50px;
+}
+.layout-ceiling {
+  overflow: hidden;
+}
+.layout-ceiling-main {
+  color: #fff;
+  float: right;
+  margin-right: 5px;
+}
+.user:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.user-panel {
+  font-size: 12px;
+  color: #fff;
+  padding: 2px 24px;
+}
+.user-panel .image img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+/* 左侧菜单 */
+.ivu-menu {
+  background: #2c3b41;
+}
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-opened .ivu-menu-submenu-title {
+  background: #1a2226;
+}
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu .ivu-menu-item-active, .ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu .ivu-menu-item-active:hover {
+  color: #fff;
+  background: #3c8dbc!important;
+}
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-item:hover, .ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu-title:hover {
+  background: #1a2226;
+}
+.ivu-menu-item a {
+  display: block;
+  color: rgba(255,255,255,.7);
+  padding: 14px 0 14px 43px;
+}
+.ivu-menu-vertical .ivu-menu-item, .ivu-menu-vertical .ivu-menu-submenu-title {
+  padding: 0 0 0 24px;
+}
+.ivu-menu-vertical .ivu-menu-item, .ivu-menu-vertical .ivu-menu-submenu-title span {
+  display: inline-block;
+  width: 60%;
+  padding: 14px 0;
+}
+.ivu-menu-vertical .ivu-menu-submenu-title-icon {
+  top:18px;
+  right: 24px;
+}
+.ivu-menu-opened .ivu-menu-submenu-title-icon {
+  position: absolute;
+  top:18px;
+  right: 24px;
+}
+.ivu-menu .ivu-menu-item-selected {
+  width: 100%;
+}
+.ivu-menu-vertical .ivu-menu-submenu .ivu-menu-item {
+  padding-left: 0; width: 100%;
+}
+.ivu-menu-vertical .ivu-menu-item {
+  padding: 0;
+}
+.ivu-menu-submenu {
+  border-bottom: 1px solid #1a2226;
+}
+.ivu-menu-item {
+  padding: 0!important;
+}
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-item-active .ivu-menu-submenu-title {
+  color: rgba(255,255,255,.7);
+}
+.is-active {
+  background: #3c8dbc;
+}
+.ivu-menu-item .is-active {
+  color: #fff;
+}
+.layout-menu-left {
+  background: #1a2226;
+}
+.ivu-menu-dark {
+  background: #222d32;
+  border-left: 2px solid #222d32;
+  border-right: none;
+}
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu),
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu-title-active:not(.ivu-menu-submenu) {
+  background: #1e282c;
+  border-right: none;
+  color: #fff;
+}
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-item:hover,
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu-title:hover,
+.ivu-menu-opened:hover {
+  background: #1a2226;
+  border-right: none;
+}
+.layoutMenuLeft img {
+  vertical-align: middle
+}
+.layoutMenuLeft .ivu-col {
+  background: #3c8dbc;
+}
+.layoutMenuLeft .layout-menu-left {
+  background: #367fa9 url("../../static/img/foreign_service_center.jpg") no-repeat top right 100%;
+}
+
+/* 容器 */
+.ivu-page {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+}
+.layout-content {
+  height: 84%;
+  overflow: auto!important;
+}
+.layout-content {
+  min-height: 200px;
+  margin: 15px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 4px;
+}
+.layout-content-main {
+  padding: 10px;
+}
+
+.layout-copy {
+  text-align: center;
+  color: #9ea7b4;
+  position: fixed;
+  width: 100%;
+  padding: 10px 0 20px;
+  bottom: 0;
+}
+.layout-copy span {
+  margin-left: -300px;
+  display: block;
+}
+
+.layout-hide-text .layout-text {
+  display: none;
+}
+
+/* 控件 */
+.Badge li {
+  display: inline-block;
+  cursor: pointer;
+}
+.Badge .ivu-badge-count {
+  top:-5px;
+  right: -5px;
+  border-radius: 4px;
+  padding: 0 2px;
+  box-shadow:none;
+  height: 15px;
+  min-width: 15px;
+  line-height: 15px;
+}
+.Badge .green .ivu-badge-count {
+  background: #00a65a;
+}
+.Badge .yellow .ivu-badge-count {
+  background: #f39c12;
+}
+.ivu-badge {
+  color: #fff;
+  margin-right: 20px;
+}
+.removeArror .ivu-icon-ios-arrow-down:before {
+  content: ""
+}
+
+.ivu-collapse-content {
+  overflow: initial;
+}
+
+.ivu-form-item {
+  margin-bottom: 25px;
+}
+
+.layout-breadcrumb {
+  padding: 10px 15px 0;
+}
+.layout-breadcrumb .is-active {
+  background: none;
+}
+
+.ivu-tooltip, .ivu-tooltip-rel {
+  width: 100%;
+}
+.ivu-tooltip-popper {
+  left: 50px;
+}
+.ivu-tooltip-inner {
+  white-space: normal;
+}
+.ivu-icon {
+  vertical-align: middle;
+}
+
+.ivu-table-header .ivu-table-cell {
+  cursor: pointer;
+}
+
+.ivu-form .ivu-form-item-label {
+  text-align: right;
+  vertical-align: middle;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+  line-height: 1;
+  padding: 10px 12px 10px 0;
+  box-sizing: border-box;
+}
+
+.ivu-modal-header:hover {
+  cursor: move;
+}
+.ivu-col {
+  transition: width .2s ease-in-out;
+}
+.ivu-btn-text {
+  color: #fff;
+}
+.logoFonts {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* 前端规范1.5.2 */
+.ivu-form .ivu-form-item-label {
+  text-align: right;
+  vertical-align: middle;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+  line-height: 1;
+  padding: 10px 12px 10px 0;
+  box-sizing: border-box;
+}
+
+/*滚动条样式*/
+*::-webkit-scrollbar {
+  position: absolute;
+  width: 5px !important;
+  height: 5px !important;
+  background-color: #5cadff;
+}
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #eee !important;
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #5cadff !important;
+}

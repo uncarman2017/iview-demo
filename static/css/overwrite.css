@@ -1,0 +1,9 @@
+.ivu-modal-confirm-footer .ivu-btn-text {
+  color: #495060;
+}
+
+.ivu-modal-confirm-footer  .ivu-btn-text:hover {
+  color: #57a3f3;
+  background-color: transparent;
+  border-color: transparent;
+}

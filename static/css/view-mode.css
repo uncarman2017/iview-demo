@@ -1,0 +1,46 @@
+  .view-mode .ivu-select-disabled .ivu-select-selection{
+    border:0px solid white;
+    background-color: white;
+  }
+  .view-mode .ivu-select-single .ivu-select-selection .ivu-select-placeholder{
+    color:white;
+  }
+  .view-mode .ivu-select-multiple .ivu-select-selection .ivu-select-placeholder{
+    color:white;
+  }
+  .view-mode .ivu-select-selected-value{
+    color:#495060;
+  }
+  
+  .view-mode .ivu-select-disabled .ivu-icon-arrow-down-b:before{
+    content:"";
+  }
+  .view-mode .ivu-icon-ios-calendar-outline:before{
+    content:""
+  } 
+  .view-mode .ivu-cascader-disabled .ivu-icon-arrow-down-b:before{
+    content:""
+  }
+  .view-mode .ivu-input[disabled], .view-mode fieldset[disabled] .ivu-input{
+    color:black
+  }
+
+  .view-mode .ivu-input[disabled]{
+    background-color:white;
+    border: 0px solid  white
+  }
+
+  .view-mode .ivu-input-number-disabled{
+    background-color:white;
+    border:0px solid white
+  }
+  .view-mode .ivu-input-number-disabled .ivu-input-number-input{
+    background-color:white;
+  }
+  .view-mode .ivu-input-number-input[disabled]{
+    color:black;
+  }
+
+  .view-mode .ivu-select-input[disabled] {
+    color:black;
+  }

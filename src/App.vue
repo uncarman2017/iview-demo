@@ -1,3 +1,4 @@
+// 应用程序主界面模板
 <template>
   <div id="app">
     <img src="./assets/logo.png">

@@ -4,6 +4,30 @@
 
 const path = require('path')
 
+let buildParam = process.argv.slice(2)  // 获取命令行参数
+let env
+if (buildParam) {
+  let envParam = buildParam[0]
+  switch (envParam) {
+    // case 'sit':
+    //   env = require('./sit.env')
+    //   break;
+    // case 'lpt':
+    //   env = require('./lpt.env')
+    //   break;
+    // case 'uat':
+    //   env = require('./uat.env')
+    //   break
+    case 'prd':
+      env = require('./prod.env')
+      break
+    default:
+      env = require('./dev.env')
+  }
+} else {
+  env = require('./dev.env')
+}
+
 module.exports = {
   dev: {
 
@@ -23,7 +47,7 @@ module.exports = {
     // Use Eslint Loader?
     // If true, your code will be linted during bundling and
     // linting errors and warnings will be shown in the console.
-    useEslint: true,
+    useEslint: false,
     // If true, eslint errors and warnings will also be shown in the error overlay
     // in the browser.
     showEslintErrorsInOverlay: false,
