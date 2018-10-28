@@ -6,14 +6,8 @@ import App from './App'
 import VueRouter from 'vue-router'
 import Router from './router'
 import iView from 'iview'
-import '../my-theme/dist/iview.css'
-// import '../my-theme/dist/fonts/ionicons.eot'
-// import '../my-theme/dist/fonts/ionicons.svg'
-// import '../my-theme/dist/fonts/ionicons.ttf'
-// import '../my-theme/dist/fonts/ionicons.woff'
-// import '../static/css/common.css'
-// import '../static/css/style.css'
-// import '../static/css/overwrite.css'
+// import '../my-theme/dist/iview.css'
+import 'iview/dist/styles/iview.css'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
