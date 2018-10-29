@@ -2,7 +2,7 @@
   <div>
     <h2>水平排列的布局</h2>
     <p>col必须放在row里面</p>
-    <Row>
+    <Row class="code-row-bg">
       <Col span="12">col-12</Col>
       <Col span="12">col-12</Col>
     </Row>
